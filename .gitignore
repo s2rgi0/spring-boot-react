@@ -1,2 +1,7 @@
 # Project exclude paths
 /wisdom-pet/target/
+
+node_modules/
+ui/node_modules/
+target/
+.idea/

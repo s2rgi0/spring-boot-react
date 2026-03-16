@@ -1,0 +1,25 @@
+.header-link{
+    text-decoration: none;
+    color: black;
+}
+
+.navbar-list {
+  display: flex;         /* Alinea los elementos en fila */
+  list-style: none;      /* Quita los puntos de la lista */
+  padding: 0;
+  gap: 15px;             /* Espacio entre cada enlace */
+  justify-content: center; /* Centra el menú (opcional) */
+}
+
+/* Estilos para los enlaces dentro de la lista */
+.navbar-list li a {
+  text-decoration: none; /* Esta es la clave: quita el subrayado */
+  color: #333;           /* Un color gris oscuro más profesional */
+  font-weight: 500;       /* Hace la letra un poco más gruesa */
+  transition: color 0.3s ease; /* Efecto suave para cuando pases el mouse */
+}
+
+/* Efecto hover (cuando pasas el mouse por encima) */
+.navbar-list li a:hover {
+  color: #007bff; /* Cambia a azul al pasar el mouse */
+}

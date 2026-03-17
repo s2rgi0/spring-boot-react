@@ -12,12 +12,13 @@ function App() {
       <div className="App">
         <BrowserRouter>
             <Routes>
-                <Route path="/" component={Layout} />
-                <Route index element={<Home/>} />
-                <Route path={'/customers'} element={<Customers />} />
-                <Route path={'products'} element={<Products/>}/>
-                <Route path={'services'} element={<Services/>}/>
-                <Route path={'vendors'} element={<Vendors/>}/>
+                <Route path="/" element={<Layout />} >
+                    <Route index element={<Home/>} />
+                    <Route path={'/customers'} element={<Customers />} />
+                    <Route path={'products'} element={<Products/>} />
+                    <Route path={'services'} element={<Services/> }/>
+                    <Route path={'vendors'} element={<Vendors/>} />
+                </Route>
             </Routes>
         </BrowserRouter>
       </div>
